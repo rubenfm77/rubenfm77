@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-rubenfm77.github.io-2E9FD1?style=flat-square)](https://rubenfm77.github.io/PORTFOLIO)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rub%C3%A9n-fern%C3%A1ndez-mart%C3%ADnez-851333172)&nbsp;
-[![Email](https://img.shields.io/badge/Email-levodopa@hotmail.com-D14836?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:levodopa@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Ruben.fernandez.martinez77@gmail.com)
 
 </div>
 
