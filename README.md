@@ -65,21 +65,6 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🏥 ICU Sepsis Early-Prediction + MLOps
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/icu-sepsis-prediction)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
-![MLOps](https://img.shields.io/badge/MLOps-Custom-6DB33F?style=flat-square)
-
-End-to-end clinical ML pipeline on **PhysioNet 2019** ICU data. PyTorch GRU time-series model + XGBoost baseline with production drift monitoring.
-
-**Key results:** PSI drift correctly triggered retrain at batch 6 · Lactate PSI = 10.05 · AUPRC drop of 66.7% flagged automatically · Stratified patient-level split to prevent data leakage
-
-`PyTorch` `XGBoost` `Pandas` `Healthcare` `MLOps`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🤖 SQL Analyst Agent — LLM × Banking
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/sql-analyst-agent)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
@@ -93,19 +78,36 @@ Plain-English → SQL → auto-chart app on a synthetic **SME credit portfolio**
 `Python` `Groq LLM` `SQLite` `Streamlit` `Plotly`
 
 </td>
+<td width="50%" valign="top">
+
+### 🏦 EuroCredit — Counterparty Credit Risk Terminal
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/eurocredit)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-3fb950?style=flat-square&logo=github&logoColor=white)](https://rubenfm77.github.io/eurocredit/)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+Browser-based credit risk terminal scoring **60 synthetic European companies**. Blended Altman Z″ + multi-factor model (leverage, DSCR, country & sector risk) → letter grade + 12-month PD, with automated compliance flags. No backend, runs fully client-side.
+
+**Domain:** Banking · Credit Risk · Regulatory (Basel III, IFRS 9, EU AI Act)
+
+`React` `Vite` `Credit Risk` `Banking` `Offline-First`
+
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💊 De Novo Drug Discovery AI
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/drug-discovery-ai)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![RDKit](https://img.shields.io/badge/RDKit-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+### 🏥 ICU Sepsis Early-Prediction + MLOps
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/icu-sepsis-prediction)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
+![MLOps](https://img.shields.io/badge/MLOps-Custom-6DB33F?style=flat-square)
 
-AI pipeline for candidate molecule generation against **6 protein targets** (including SARS-CoV-2 protease 6LU7). ESM-2 protein embeddings + RDKit molecular scoring + interactive dashboard with PCA scatter, radar charts & 3D molecule viewer.
+End-to-end clinical ML pipeline on **PhysioNet 2019** ICU data. PyTorch GRU time-series model + XGBoost baseline with production drift monitoring.
 
-`ESM-2` `RDKit` `HuggingFace` `Colab` `Bioinformatics`
+**Key results:** PSI drift correctly triggered retrain at batch 6 · Lactate PSI = 10.05 · AUPRC drop of 66.7% flagged automatically · Stratified patient-level split to prevent data leakage
+
+`PyTorch` `XGBoost` `Pandas` `Healthcare` `MLOps`
 
 </td>
 <td width="50%" valign="top">
@@ -124,18 +126,6 @@ HR self-service compensation portal in **PBIP format**. 3-page report — Compen
 <tr>
 <td width="50%" valign="top">
 
-### 🤝 Employee Attrition — ML in R
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/MACHINE_LEARNING_R)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
-
-HR attrition prediction model bake-off: Logistic Regression · Decision Tree · Random Forest · XGBoost · SVM. Best model achieved **AUC 0.84**. Full EDA + variable importance + actionable business recommendations.
-
-`R` `caret` `ggplot2` `XGBoost` `HR Analytics`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🚴 Cycling Performance ML
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/cycling-performance-ml)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -144,6 +134,18 @@ HR attrition prediction model bake-off: Logistic Regression · Decision Tree · 
 ML regression on **1 030 real training sessions** to predict performance output. Feature engineering on heart rate, cadence, elevation and training load. Deployed as a live Streamlit app with real-time prediction.
 
 `Python` `scikit-learn` `Streamlit` `Sports Analytics`
+
+</td>
+<td width="50%" valign="top">
+
+### 🤝 Employee Attrition — ML in R
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/rubenfm77/MACHINE_LEARNING_R)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
+
+HR attrition prediction model bake-off: Logistic Regression · Decision Tree · Random Forest · XGBoost · SVM. Best model achieved **AUC 0.84**. Full EDA + variable importance + actionable business recommendations.
+
+`R` `caret` `ggplot2` `XGBoost` `HR Analytics`
 
 </td>
 </tr>
